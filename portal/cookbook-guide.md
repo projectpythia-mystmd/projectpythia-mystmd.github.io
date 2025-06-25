@@ -1,7 +1,15 @@
 # Cookbook Contributor's Guide
 
+
+<p style="text-align: center; margin-top: 2em;">
+  <a href="quick-cookbook-guide.md" style="display: inline-block; background-color:rgb(13, 83, 130); color: white; padding: 8px 10px; font-size: 1.1em; border-radius: 8px;">
+    &leftarrow; Back to Quickstart Guide
+  </a>
+</p>
+
+
 Project Pythia Cookbooks are collections of more advanced and domain-specific example
-workflows building on top of [Pythia Foundations](https://foundations.projectpythia.org/landing-page.html).
+workflows building on top of [Pythia Foundations](https://foundations.projectpythia.org/).
 They are [geoscience](https://en.wikipedia.org/wiki/Earth_science)-focused
 and should direct the reader towards the Foundations material for any required
 background knowledge.
@@ -76,7 +84,6 @@ Once you have successfully transferred the repository, you'll most likely want t
 
 Whether the repository lives in your personal GitHub space or on the ProjectPythia organization, there are several paths and links in the repository code that need to be updated to reflect the current home of your cookbook source. This step is necessary to ensure that the cookbook building and publishing infrastructure works as intended.
 
-Fortunately this is quick and easy. Just run our custom GitHub action called `trigger-replace-links`: Navigate to "Actions" &rarr; "trigger-replace-links" &rarr; "Run workflow".
 
 ## Set up the computational environment
 
@@ -90,18 +97,7 @@ You'll most likely want to do your edits in a [local clone of the repository](ht
 
 You're now ready to create and run awesome notebooks.
 
-### Customizing your GitHub actions
 
-Your repository includes automation for building and publishing your Cookbook, powered by [GitHub Actions](https://docs.github.com/en/actions). Now that you have created a custom name for your conda environment (`<your-cookbook-name>-dev`), you need to edit three files found in the `.github/workflows` section of your repo:
-- `.github/workflows/nightly-build.yaml`
-- `.github/workflows/publish-book.yaml`
-- `.github/workflows/trigger-book-build.yaml`
-
-In each of these files, in the field called `environment_name:`, replace  `cookbook-dev` with the name you used in your `environment.yml` file (probably `<your-cookbook-name>-dev`). Commit these changes.
-
-```{note}
-If these workflow files look mysterious and you don't know anything about how GitHub Actions work, don't worry! The Pythia team will help with any problems that arise with the Cookbook automation.
-```
 
 ## Develop your cookbook
 
