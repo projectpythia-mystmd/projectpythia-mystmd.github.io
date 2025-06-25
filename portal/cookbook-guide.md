@@ -1,5 +1,13 @@
 # Cookbook Contributor's Guide
 
+
+<p style="text-align: center; margin-top: 2em;">
+  <a href="quick-cookbook-guide.md" style="display: inline-block; background-color:rgb(13, 83, 130); color: white; padding: 8px 10px; font-size: 1.1em; border-radius: 8px;">
+    &leftarrow; Back to Quickstart Guide
+  </a>
+</p>
+
+
 Project Pythia Cookbooks are collections of more advanced and domain-specific example
 workflows building on top of [Pythia Foundations](https://foundations.projectpythia.org/landing-page.html).
 They are [geoscience](https://en.wikipedia.org/wiki/Earth_science)-focused
