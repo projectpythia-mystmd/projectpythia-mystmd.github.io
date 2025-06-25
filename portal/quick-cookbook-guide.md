@@ -11,7 +11,7 @@ For a more detailed, step-by-step contributor guide, see the **Full Cookbook Con
 ---
 ## Create Repository Using Template
 
-1. Navigate to [projectpythia-mystmd/cookbook-template](https://github.com/projectpythia-mystmd/cookbook-template)
+1. Navigate to [projectpythia/cookbook-template](https://github.com/projectpythia/cookbook-template)
 2. Click **"Use This Template"** → **"Create a new repository"**
 
 ### On the next page:
@@ -55,8 +55,8 @@ Follow [Git/GitHub best practices](https://foundations.projectpythia.org/foundat
 
 ## Ready to Publish?
 
-1. Make sure you’re added to the `projectpythia-mystmd` organization  
-2. From **repository settings**, transfer the repo to the `projectpythia-mystmd` organization  
+1. Make sure you’re added to the `ProjectPythia` organization  
+2. From **repository settings**, transfer the repo to the `ProjectPythia` organization  
 3. Open a PR editing `cookbook_gallery.txt` with your repo name in the [Cookbook Gallery Repository](https://github.com/projectpythia/cookbook-gallery)  
 4. Await review  
 5. Someone from the Pythia team will publish a **citable release**
